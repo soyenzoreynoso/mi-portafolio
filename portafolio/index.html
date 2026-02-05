@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enzo Reynoso | Portafolio Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1>ENZO REYNOSO</h1>
+            <span>WEB DEVELOPER</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Sobre Mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="constancia.html">Certificado</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li>
+        <a href="Enzo_Reynoso_CV.pdf" download="Enzo_Reynoso_CV" class="cv-download-link">
+            <button class="btn-cv">
+                Download CV <i class="fas fa-caret-right"></i>
+            </button>
+        </a>
+    </li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h2 class="fade-in">Bienvenido a <br><span class="highlight">Mi Portafolio</span></h2>
+            <p class="fade-in delay-1">Tengo una formación en programación web y experiencia en el desarrollo de interfaces modernas, responsive y orientadas a entornos digitales. Especializado en HTML, CSS, JavaScript y Bootstrap. Capaz de trabajar de forma remota con autonomía, organización y comunicación efectiva. En búsqueda de oportunidades remotas donde pueda aportar valor, continuar aprendiendo y desarrollarme profesionalmente.</p>
+            <button class="btn-main fade-in delay-2">Ver Proyectos</button>
+        </div>
+        <div class="hero-image fade-in">
+            <div class="image-container">
+                <img src="/img/yo.jpg" alt="Enzo Reynoso">
+            </div>
+            <div class="blob orange"></div>
+            <div class="blob purple"></div>
+        </div>
+    </header>
+
+    <section class="projects-section" id="projects">
+    <h1 class="section-title">Algunos de mis proyectos.</h1>
+    <div class="projects-grid">
+        
+        <div class="project-card glass">
+            <div class="project-img">
+                <img src="img/1hamburguesa.jpg" alt="f-food">
+            </div>
+            <div class="project-info">
+                <h4>Tienda de comidas</h4>
+                <p>Diseño oscuro, moderno y funcional.
+                    Todas las imágenes son ilustrativas. La web es funcional en tu totalidad.
+                </p>
+                <a href="https://soyenzoreynoso.github.io/Tienda-de-comidas/" target="_blank">
+                    <button class="btn-project">Ver Proyecto</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card glass">
+            <div class="project-img">
+                <img src="img/2seguro.jpg" alt="seguros">
+            </div>
+            <div class="project-info">
+                <h4>Web de seguros</h4>
+                <p>Web minimalista y ligera.
+                    Todas las imágenes son ilustrativas. La web será funcional en tu totalidad una vez configurada con los datos del cliente, esto es una muestra
+                </p>
+                <a href="https://soyenzoreynoso.github.io/webdeseguros/" target="_blank">
+                    <button class="btn-project">Ver Proyecto</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card glass">
+            <div class="project-img">
+                <img src="img/3ventas.jpg" alt="bienes raices"> </div>
+            <div class="project-info">
+                <h4>Bienes Raíces</h4>
+                <p>Estilo minimalista moderno y eficaz.
+                    Todas las imágenes son ilustrativas. La web será funcional en tu totalidad una vez configurada con los datos del cliente, esto es una muestra.
+                </p>
+                <a href="https://soyenzoreynoso.github.io/bienesraices/" target="_blank">
+                    <button class="btn-project">Ver Proyecto</button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+        <section class="faq-section container">
+    <h2 class="section-title text-center">Preguntas <span class="highlight">Frecuentes</span></h2>
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <div class="accordion custom-accordion" id="faqAccordion">
+                
+                <div class="accordion-item glass mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f1">
+                            ¿Qué tecnologías utilizas para el desarrollo?
+                        </button>
+                    </h2>
+                    <div id="f1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Me especializo en tecnologías modernas de frontend como HTML5, CSS3 y JavaScript. También utilizo frameworks como Bootstrap para asegurar diseños rápidos y escalables.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item glass mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">
+                            ¿Los sitios web son adaptables a celulares?
+                        </button>
+                    </h2>
+                    <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Sí, desarrollo interfaces bajo la filosofía "responsive design", lo que garantiza que la web se adapte perfectamente a dispositivos móviles, tablets y computadoras de escritorio.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item glass mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">
+                            ¿Cómo es la modalidad de trabajo para proyectos remotos?
+                        </button>
+                    </h2>
+                    <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Trabajo de forma remota con autonomía y organización, manteniendo una comunicación efectiva y constante para asegurar que los objetivos del cliente se cumplan en tiempo y forma.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item glass mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4">
+                            ¿Entregas el código fuente al finalizar el proyecto?
+                        </button>
+                    </h2>
+                    <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Sí, una vez finalizado el proyecto y cumplidos los acuerdos, se entrega el código fuente completo y los archivos necesarios para el despliegue de la web.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item glass mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5">
+                            ¿Ofreces soporte post-entrega?
+                        </button>
+                    </h2>
+                    <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Claro que sí. Ofrezco un período de soporte para corregir errores técnicos o realizar ajustes menores una vez que el sitio ya está en funcionamiento.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+        <div class="social-sidebar">
+            <a href="iamenzoreynoso@gmail.com" class="social-icon gmail" title="Gmail">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/+543434672052" target="_blank" class="social-icon whatsapp" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/soyenzoreynoso" target="_blank" class="social-icon github" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
